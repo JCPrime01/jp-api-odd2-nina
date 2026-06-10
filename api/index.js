@@ -22,15 +22,15 @@
       res.writeHead(302, { Location: 'https://grupojogadorcaro.com.br/quem-e-jota' });
       res.end();
       return;
-      }
+       }
     
     const url = 'https://go.aff.esportiva.bet/6j30imbu?campaign_id=7176'
 
     const shareCode = '&shareCode=G3RY6W4IMDW'
     
-    const afp = '&afp2'
+    const afp = '&afp2=ta'
     
-    const source = '&utm_source=ta'
+    const source = '&utm_medium=ta'
 
     const destino = url+shareCode+afp+source
 
